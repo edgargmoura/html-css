@@ -21,7 +21,8 @@ body {
 }
 
 main {
-    background-color: rgba(255, 255, 255, 0.811);
+    background-color: rgba(255, 255, 255, 0.526);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.554);
     width: 400px;
     margin: auto;
     border-radius: 10px;
