@@ -21,29 +21,50 @@ header h1 {
     padding-top: 10px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-    background-color: rgb(86, 81, 81);
-    padding: 10px;
-    margin: 10px;
-    display: inline-block;
-
+menu {
+    display: none;
 }
 
-a:hover {
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: rgb(86, 81, 81);
+    display: block;
+    padding: 10px;
+    border-top: 2px solid gray;
+}
+
+span#burguer {
+    background-color: rgb(64, 64, 64);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+menu > ul > li > a:hover {
     background-color: rgb(179, 171, 171);
 }
 
-article {
+main {
     background-color: white;
-    max-width: 700px;
-    display: block;
+    width: 90vh;
     margin: auto;
-    margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
-    padding-bottom: 20px;
+    margin-top: 10px;
+
 }
 
 article > h2 {
@@ -52,5 +73,6 @@ article > h2 {
 
 article > p {
     text-align: justify;
+    margin-bottom: 20px;
     text-indent: 20px;
 }
